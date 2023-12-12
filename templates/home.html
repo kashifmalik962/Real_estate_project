@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bangluru Price Prediction</title>
+    <link rel="stylesheet" href="\static\home.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bangluru Price Prediction</h2>
+        <form action="/" id="pricePredictionForm" method="post">
+            <div class="form-group">
+                <label for="name">Area (Square Feet) :</label>
+                <input type="number" id="" name="total_sqft" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Number of Bathrooms:</label>
+                <input type="number" id="" name="bath" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="age">Number of BHK:</label>
+                <input type="number" id="" name="bhk" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <select class="location" name="location" id="uiLocations">
+                    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+                </select>
+            </div>
+    
+            <input type="submit" value="Submit">
+        </form>
+        <div class="output_out"> 
+            <div class="output hidden">
+                <h1>
+                </h1>
+        </div>
+    </div>
+       
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="\static\home.js"></script>
+    
+</body>
+</html>
