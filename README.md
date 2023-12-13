@@ -35,7 +35,4 @@ To run the project locally:
 
 ## Contributors
 
-- [Your Name](link to your profile)
-
-Feel free to contribute, report issues, or provide feedback!
-
+- [Kashif Malik](https://www.linkedin.com/in/kashif-malik-2924a9258/)
